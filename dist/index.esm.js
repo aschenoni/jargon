@@ -1,6 +1,6 @@
 /*!
- * [libraryName] v0.0.0
- * (c) [authorFullName]
+ * @aschenoni/jargs v0.0.0
+ * (c) Austin Schenoni
  * Released under the MIT License.
  */
 

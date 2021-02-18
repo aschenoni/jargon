@@ -1,8 +1,8 @@
-**[[libraryNameWithSpacesAndUpperCases]](README.md)**
+**[@aschenoni/jargs](README.md)**
 
 > Globals
 
-# [libraryNameWithSpacesAndUpperCases]
+# @aschenoni/jargs
 
 ## Index
 
