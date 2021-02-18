@@ -1,5 +1,5 @@
 {
-  "name": "@aschenoni/jargs",
+  "name": "@aschenoni/jargon",
   "version": "0.0.0",
   "description": "",
   "cdn": "dist/index.umd.js",
@@ -12,6 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.14",
+    "@types/node": "^14.14.28",
     "@types/prettier": "^2.1.2",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
@@ -39,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aschenoni/jargs.git"
+    "url": "git+https://github.com/aschenoni/jargon.git"
   },
   "keywords": [
     "typescript",
@@ -51,7 +52,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aschenoni/jargs/issues"
+    "url": "https://github.com/aschenoni/jargon/issues"
   },
-  "homepage": "https://github.com/aschenoni/jargs#readme"
+  "homepage": "https://github.com/aschenoni/jargon#readme"
 }

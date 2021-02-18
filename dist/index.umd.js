@@ -1,5 +1,5 @@
 /*!
- * @aschenoni/jargs v0.0.0
+ * @aschenoni/jargon v0.0.0
  * (c) Austin Schenoni
  * Released under the MIT License.
  */
@@ -7,7 +7,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['jargs'] = {}));
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['jargon'] = {}));
 }(this, (function (exports) { 'use strict';
 
   /**

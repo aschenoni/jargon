@@ -1,5 +1,5 @@
 /*!
- * @aschenoni/jargs v0.0.0
+ * @aschenoni/jargon v0.0.0
  * (c) Austin Schenoni
  * Released under the MIT License.
  */

@@ -23,7 +23,7 @@ const banner = `/*!
 function createOutputOptions(options) {
   return {
     banner,
-    name: 'jargs',
+    name: 'jargon',
     exports: 'named',
     sourcemap: true,
     ...options,

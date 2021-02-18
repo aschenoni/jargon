@@ -1,7 +1,7 @@
 {
   "out": "./docs",
   "mode": "file",
-  "name": "@aschenoni/jargs",
+  "name": "@aschenoni/jargon",
   "theme": "markdown",
   "readme": "none",
   "module": "es2015",

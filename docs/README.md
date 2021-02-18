@@ -1,8 +1,8 @@
-**[@aschenoni/jargs](README.md)**
+**[@aschenoni/jargon](README.md)**
 
 > Globals
 
-# @aschenoni/jargs
+# @aschenoni/jargon
 
 ## Index
 
