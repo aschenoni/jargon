@@ -38,7 +38,7 @@
 
 • **options**: *string*[]
 
-Defined in: [Jargon.ts:3](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L3)
+Defined in: [Jargon.ts:3](https://github.com/aschenoni/jargon/blob/814b89d/src/Jargon.ts#L3)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **positionals**: *string*[]
 
-Defined in: [Jargon.ts:4](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L4)
+Defined in: [Jargon.ts:4](https://github.com/aschenoni/jargon/blob/814b89d/src/Jargon.ts#L4)
 
 ## Methods
 
@@ -62,7 +62,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:65](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L65)
+Defined in: [Jargon.ts:65](https://github.com/aschenoni/jargon/blob/814b89d/src/Jargon.ts#L65)
 
 ___
 
@@ -78,7 +78,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:27](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L27)
+Defined in: [Jargon.ts:27](https://github.com/aschenoni/jargon/blob/814b89d/src/Jargon.ts#L27)
 
 ___
 
@@ -95,7 +95,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:52](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L52)
+Defined in: [Jargon.ts:52](https://github.com/aschenoni/jargon/blob/814b89d/src/Jargon.ts#L52)
 
 ___
 
@@ -105,4 +105,4 @@ ___
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:6](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L6)
+Defined in: [Jargon.ts:6](https://github.com/aschenoni/jargon/blob/814b89d/src/Jargon.ts#L6)
