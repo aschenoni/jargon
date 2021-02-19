@@ -38,7 +38,7 @@
 
 • **options**: *string*[]
 
-Defined in: [Jargon.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/Jargon.ts#L3)
+Defined in: [Jargon.ts:3](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L3)
 
 ___
 
@@ -46,13 +46,13 @@ ___
 
 • **positionals**: *string*[]
 
-Defined in: [Jargon.ts:4](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/Jargon.ts#L4)
+Defined in: [Jargon.ts:4](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L4)
 
 ## Methods
 
 ### assertRequired
 
-▸ **assertRequired**(`positionalArgs`: *string*[]): *void*
+▸ `Private`**assertRequired**(`positionalArgs`: *string*[]): *void*
 
 #### Parameters:
 
@@ -62,13 +62,13 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:62](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/Jargon.ts#L62)
+Defined in: [Jargon.ts:65](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L65)
 
 ___
 
 ### assignOptions
 
-▸ **assignOptions**(`optionsArgs`: *string*[]): *void*
+▸ `Private`**assignOptions**(`optionsArgs`: *string*[]): *void*
 
 #### Parameters:
 
@@ -78,13 +78,13 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:27](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/Jargon.ts#L27)
+Defined in: [Jargon.ts:27](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L27)
 
 ___
 
 ### assignPositionals
 
-▸ **assignPositionals**(`positionalArgs`: *string*[], `positionals`: *string*[]): *void*
+▸ `Private`**assignPositionals**(`positionalArgs`: *string*[], `positionals`: *string*[]): *void*
 
 #### Parameters:
 
@@ -95,7 +95,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:52](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/Jargon.ts#L52)
+Defined in: [Jargon.ts:52](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L52)
 
 ___
 
@@ -105,4 +105,4 @@ ___
 
 **Returns:** *void*
 
-Defined in: [Jargon.ts:6](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/Jargon.ts#L6)
+Defined in: [Jargon.ts:6](https://github.com/aschenoni/jargon/blob/c799906/src/Jargon.ts#L6)

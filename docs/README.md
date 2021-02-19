@@ -29,7 +29,7 @@ Name | Type |
 
 **Returns:** *function*
 
-Defined in: [decorators/alias.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/alias.ts#L3)
+Defined in: [decorators/alias.ts:3](https://github.com/aschenoni/jargon/blob/c799906/src/decorators/alias.ts#L3)
 
 ___
 
@@ -46,7 +46,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [decorators/option.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/option.ts#L3)
+Defined in: [decorators/option.ts:3](https://github.com/aschenoni/jargon/blob/c799906/src/decorators/option.ts#L3)
 
 ___
 
@@ -63,7 +63,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [decorators/positional.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/positional.ts#L3)
+Defined in: [decorators/positional.ts:3](https://github.com/aschenoni/jargon/blob/c799906/src/decorators/positional.ts#L3)
 
 ___
 
@@ -80,4 +80,4 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [decorators/required.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/required.ts#L3)
+Defined in: [decorators/required.ts:3](https://github.com/aschenoni/jargon/blob/c799906/src/decorators/required.ts#L3)

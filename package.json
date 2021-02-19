@@ -1,6 +1,6 @@
 {
   "name": "@aschenoni/jargon",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple argument parser using decorators",
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",
