@@ -24,7 +24,7 @@ export default class Jargon {
     // console.log(positionalArgs, this.positionals);
   }
 
-  assignOptions(optionsArgs: string[]): void {
+  private assignOptions(optionsArgs: string[]): void {
     optionsArgs.forEach((option) => {
       let prop: string;
       let val;
@@ -49,7 +49,10 @@ export default class Jargon {
     });
   }
 
-  assignPositionals(positionalArgs: string[], positionals: string[]): void {
+  private assignPositionals(
+    positionalArgs: string[],
+    positionals: string[],
+  ): void {
     if (!positionals) {
       return;
     }
@@ -59,7 +62,7 @@ export default class Jargon {
     });
   }
 
-  assertRequired(positionalArgs: string[]): void {
+  private assertRequired(positionalArgs: string[]): void {
     if (
       this.requiredArgCount &&
       this.requiredArgCount > positionalArgs.length

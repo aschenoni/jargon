@@ -1,56 +1,83 @@
-**[@aschenoni/jargon](README.md)**
-
-> Globals
+@aschenoni/jargon
 
 # @aschenoni/jargon
 
-## Index
+## Table of contents
 
-### Type aliases
+### Classes
 
-* [NumberParseable](README.md#numberparseable)
+- [default](classes/default.md)
 
 ### Functions
 
-* [isNumberParseable](README.md#isnumberparseable)
-
-## Type aliases
-
-### NumberParseable
-
-Ƭ  **NumberParseable**: number \| string \| boolean & { isNumberParseble: unique symbol  }
-
-*Defined in [index.ts:4](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/bf4667f/src/index.ts#L4)*
-
-A Branded Type for values parseable to number.
+- [alias](README.md#alias)
+- [option](README.md#option)
+- [positional](README.md#positional)
+- [required](README.md#required)
 
 ## Functions
 
-### isNumberParseable
+### alias
 
-▸ `Const`**isNumberParseable**(`value`: unknown): value is NumberParseable
-
-*Defined in [index.ts:23](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/bf4667f/src/index.ts#L23)*
-
-Check if value is parseable to number.
-
-**`example`** ```ts
-isNumberParseable('AAAA');
-//=> false
-
-isNumberParseable('100');
-//=> true
-
-if (!isNumberParseable(value))
-  throw new Error('Value can\'t be parseable to `Number`.')
-return Number(value);
-```
-@param value - An `unknown` value to be checked.
+▸ **alias**(...`aliases`: *string*[]): (`target`: [*default*](classes/default.md), `key`: *string*) => *void*
 
 #### Parameters:
 
 Name | Type |
------- | ------ |
-`value` | unknown |
+:------ | :------ |
+`...aliases` | *string*[] |
 
-**Returns:** value is NumberParseable
+**Returns:** *function*
+
+Defined in: [decorators/alias.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/alias.ts#L3)
+
+___
+
+### option
+
+▸ **option**(`target`: [*default*](classes/default.md), `key`: *string*): *void*
+
+#### Parameters:
+
+Name | Type |
+:------ | :------ |
+`target` | [*default*](classes/default.md) |
+`key` | *string* |
+
+**Returns:** *void*
+
+Defined in: [decorators/option.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/option.ts#L3)
+
+___
+
+### positional
+
+▸ **positional**(`target`: [*default*](classes/default.md), `key`: *string*): *void*
+
+#### Parameters:
+
+Name | Type |
+:------ | :------ |
+`target` | [*default*](classes/default.md) |
+`key` | *string* |
+
+**Returns:** *void*
+
+Defined in: [decorators/positional.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/positional.ts#L3)
+
+___
+
+### required
+
+▸ **required**(`target`: [*default*](classes/default.md), `key`: *string*): *void*
+
+#### Parameters:
+
+Name | Type |
+:------ | :------ |
+`target` | [*default*](classes/default.md) |
+`key` | *string* |
+
+**Returns:** *void*
+
+Defined in: [decorators/required.ts:3](https://github.com/aschenoni/jargon/blob/cdc5f6e/src/decorators/required.ts#L3)
